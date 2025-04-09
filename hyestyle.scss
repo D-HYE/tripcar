@@ -1,3 +1,22 @@
-#green18_106718 > div > div{
-    height: 0; border: none;
+.mo_content{
+    .tabMenuArea{min-width: 320px;}
+    .tabMenu {
+        gap: 16px;
+        padding: 10px;
+    }
+    .tabMenu li {font-size: 16px;}
+    .wrap.notice{
+        .tabMenuArea{top: 0;}
+    }
+    .wrap.qna{
+        .content .question{
+            font-size: 16px;
+        }
+        .content .answer{
+            font-size: 14px;
+        }
+        .content .question::after{
+            background: none;
+        }
+    }
 }
