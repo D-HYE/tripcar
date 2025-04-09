@@ -1,3 +1,6 @@
+.mo_content {
+  background: red;
+}
 .mo_content .tabMenuArea {
   min-width: 320px;
 }
