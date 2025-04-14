@@ -1,27 +1,29 @@
-#imgSize > form > table.gTable2>tbody{
-    position: relative;
-    >tr:nth-child(3),
-    >tr:nth-child(4){display: none;}
-    
-    >tr:nth-child(1){
-        th{display: none;}
-        td{
-            position: absolute; top: 50%; right: 8px; transform: translateY(-50%);
-            height: auto; padding: 0 !important;
-            border: 0 !important;}
-    }
-    >tr:nth-child(2){
-        th{display: none;}
-        td{
-            width: 100%; height: auto; padding: 16px 8px !important;
-            border: 0 !important; border-bottom: 1px solid #ccc !important;
-            span{
-                font-size: 24px !important;
-            }
-        }
-    }
 
-}
+// #imgSize > form > table.gTable2>tbody{
+//     position: relative;
+//     >tr:nth-child(3),
+//     >tr:nth-child(4){display: none;}
+    
+//     >tr:nth-child(1){
+//         th{display: none;}
+//         td{
+//             position: absolute; top: 50%; right: 8px; transform: translateY(-50%);
+//             height: auto; padding: 0 !important;
+//             border: 0 !important;}
+//     }
+//     >tr:nth-child(2){
+//         th{display: none;}
+//         td{
+//             width: 100%; height: auto; padding: 16px 8px !important;
+//             border: 0 !important; border-bottom: 1px solid #ccc !important;
+//             span{
+//                 font-size: 24px !important;
+//             }
+//         }
+//     }
+
+// }
+
 #imgSize > form > table:nth-child(15) > tbody > tr.prevNext_tbl:nth-child(odd)>td>table>tbody>tr{
     position: relative;
     display: flex; justify-content: space-between; align-items: center;
