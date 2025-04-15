@@ -54,35 +54,33 @@
 
 }
 
-#list_table>tbody {
-
-    >tr:nth-child(odd)>td:nth-child(2),
-    >tr:nth-child(even)>td {
-        display: none !important;
-    }
-
-    >tr:nth-child(odd) {
-        display: flex;
-        flex-direction: column;
-    }
-
-    >tr>td>table {
-        width: calc(100vw - 20px);
-    }
-
-    >tr:nth-child(odd)>td:nth-child(odd)>table:nth-child(1) {
-        height: 57.895vw;
-    }
-
-    >tr:nth-child(odd)>td:nth-child(odd)>table:nth-child(2)>tbody>tr>td>div {
-        width: 100% !important;
-        padding-bottom: 2rem;
-        font-weight: 500;
-    }
-}
-
 // 모바일
 .mo_content {
+    #list_table>tbody {
+        >tr:nth-child(odd)>td:nth-child(2),
+        >tr:nth-child(even)>td {
+            display: none !important;
+        }
+    
+        >tr:nth-child(odd) {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        >tr>td>table {
+            width: calc(100vw - 20px);
+        }
+    
+        >tr:nth-child(odd)>td:nth-child(odd)>table:nth-child(1) {
+            height: 57.895vw;
+        }
+    
+        >tr:nth-child(odd)>td:nth-child(odd)>table:nth-child(2)>tbody>tr>td>div {
+            width: 100% !important;
+            padding-bottom: 2rem;
+            font-weight: 500;
+        }
+    }
     .tabMenuArea {
         min-width: 320px;
         .tabMenu {

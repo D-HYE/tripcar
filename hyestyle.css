@@ -20,26 +20,25 @@
   flex: 1;
 }
 
-#list_table > tbody > tr:nth-child(odd) > td:nth-child(2),
-#list_table > tbody > tr:nth-child(even) > td {
+.mo_content #list_table > tbody > tr:nth-child(odd) > td:nth-child(2),
+.mo_content #list_table > tbody > tr:nth-child(even) > td {
   display: none !important;
 }
-#list_table > tbody > tr:nth-child(odd) {
+.mo_content #list_table > tbody > tr:nth-child(odd) {
   display: flex;
   flex-direction: column;
 }
-#list_table > tbody > tr > td > table {
+.mo_content #list_table > tbody > tr > td > table {
   width: calc(100vw - 20px);
 }
-#list_table > tbody > tr:nth-child(odd) > td:nth-child(odd) > table:nth-child(1) {
+.mo_content #list_table > tbody > tr:nth-child(odd) > td:nth-child(odd) > table:nth-child(1) {
   height: 57.895vw;
 }
-#list_table > tbody > tr:nth-child(odd) > td:nth-child(odd) > table:nth-child(2) > tbody > tr > td > div {
+.mo_content #list_table > tbody > tr:nth-child(odd) > td:nth-child(odd) > table:nth-child(2) > tbody > tr > td > div {
   width: 100% !important;
   padding-bottom: 2rem;
   font-weight: 500;
 }
-
 .mo_content .tabMenuArea {
   min-width: 320px;
 }
